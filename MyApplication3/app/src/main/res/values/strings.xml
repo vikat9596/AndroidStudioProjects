@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">My Application</string>
-    <string name="hint_Wt">Weight</string>
-    <string name="hint_HtFt">Height Ft</string>
-    <string name="hint_HtIn">Height In</string>
-    <string name="btn_Cal">Calculate BMI</string>
-    <string name="txt_Result">Result</string>
-</resources>
