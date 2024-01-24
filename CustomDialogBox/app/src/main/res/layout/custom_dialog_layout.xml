@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2196F3"
+    android:orientation="vertical">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/baseline_cloud_24"
+        android:contentDescription="success Dialog"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Success"
+            android:textSize="34sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="11dp"
+            android:textColor="#2196F3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Order has been successfully placed!"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_margin="11dp"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOkay"
+        android:text="Okay"
+        android:backgroundTint="#2196F3"
+        android:textSize="21sp"
+        android:textColor="#fff"/>
+
+
+</LinearLayout>

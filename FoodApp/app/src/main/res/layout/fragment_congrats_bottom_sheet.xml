@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CongratsBottomSheetFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/capriola"
+            android:text="Congratulations! \n Your order has been Placed."
+            android:textAlignment="center"
+            android:textColor="@color/greentext"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/congrats" />
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:id="@+id/goHome"
+            android:layout_width="157dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/capriola"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/greenbutton"
+            android:text="Go Home"
+            android:textAllCaps="true"
+            android:textColor="@color/white" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</FrameLayout>
